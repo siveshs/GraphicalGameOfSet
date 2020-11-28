@@ -17,6 +17,7 @@
 		B3829BFF253823E70019D38B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3829BFD253823E70019D38B /* LaunchScreen.storyboard */; };
 		B3829C08253824090019D38B /* GameOfSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3829C07253824090019D38B /* GameOfSet.swift */; };
 		B3C6DA0125677EE600565026 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C6DA0025677EE600565026 /* Grid.swift */; };
+		B3CE1E4D25724D250017898C /* outlinedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CE1E4C25724D250017898C /* outlinedButton.swift */; };
 		B3EFE62C254BCD7900E69C8F /* SetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EFE62B254BCD7900E69C8F /* SetCardView.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		B3829C00253823E70019D38B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3829C07253824090019D38B /* GameOfSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfSet.swift; sourceTree = "<group>"; };
 		B3C6DA0025677EE600565026 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		B3CE1E4C25724D250017898C /* outlinedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = outlinedButton.swift; sourceTree = "<group>"; };
 		B3EFE62B254BCD7900E69C8F /* SetCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,12 +73,13 @@
 				B3EFE62B254BCD7900E69C8F /* SetCardView.swift */,
 				B3C6DA0025677EE600565026 /* Grid.swift */,
 				B3496D9825396CE6002ED859 /* Card.swift */,
+				B3829BF6253823E60019D38B /* ViewController.swift */,
+				B3CE1E4C25724D250017898C /* outlinedButton.swift */,
+				B3829BF8253823E60019D38B /* Main.storyboard */,
 				B3829BF2253823E60019D38B /* AppDelegate.swift */,
 				B3829BF4253823E60019D38B /* SceneDelegate.swift */,
-				B3829BF6253823E60019D38B /* ViewController.swift */,
-				B3829BF8253823E60019D38B /* Main.storyboard */,
-				B3829BFB253823E70019D38B /* Assets.xcassets */,
 				B3829BFD253823E70019D38B /* LaunchScreen.storyboard */,
+				B3829BFB253823E70019D38B /* Assets.xcassets */,
 				B3829C00253823E70019D38B /* Info.plist */,
 			);
 			path = GameOfSet;
@@ -159,6 +162,7 @@
 				B3496D9925396CE6002ED859 /* Card.swift in Sources */,
 				B3829BF3253823E60019D38B /* AppDelegate.swift in Sources */,
 				B3C6DA0125677EE600565026 /* Grid.swift in Sources */,
+				B3CE1E4D25724D250017898C /* outlinedButton.swift in Sources */,
 				B3829BF5253823E60019D38B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

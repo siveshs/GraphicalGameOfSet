@@ -28,10 +28,11 @@ class ViewController: UIViewController {
         game = GameOfSet()
     }
     
-    @IBOutlet weak var drawCardsButton: UIButton! {
-        didSet {
-            drawCardsButton.layer.cornerRadius = 4.0
-        }
+    @IBOutlet weak var drawCardsButton: outlinedButton!
+    
+    @IBAction func drawThreeCards(_ sender: UIButton) {
+            game.drawThreeCards()
+            updateDisplayedCards()
     }
     
     override func viewDidLoad() {
@@ -65,11 +66,6 @@ class ViewController: UIViewController {
         }
         updateDisplayedCards()
         score.text = "Score: " + String(game.score)
-    }
-    
-    @IBAction func drawThreeCards(_ sender: UIButton) {
-            game.drawThreeCards()
-            updateDisplayedCards()
     }
     
     @IBOutlet weak var playingAreaView: PlayingAreaView!
